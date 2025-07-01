@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    background: #f5f0ff;
+    padding: 2rem;
+  }
+  .app {
+    background:#d68ad6;
+    padding: 2rem;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+  
+    color: #333;
+    font-size: 1rem;
+    font-family: sans-serif;
+    box-shadow: 0 0 8px rgba(0,0,0,0.7);
+    text-align: center;
+  }
+  .card {
+    background: #d68ad6;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.7);
+    text-align: center;
+    color: #333;
+  }
+  input, textarea, button {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: none;
+    background: #fff5ff;
+    color: #333;
+    font-size: 1rem;
+    font-family: sans-serif;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  
+input:focus, textarea:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0,0,0,0.7);
+  }
+  
+  button {
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #dac6da;
+    color: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,0.7);
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+  }
+
+  #feedback-list {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  input {
+    border-radius: 8px;
+    border: none;
+    background: #fff5ff;
+    color: #333;
+    font-size: 1rem;
+    font-family: sans-serif;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  textarea {
+    border-radius: 8px;
+    border: none;
+    background: #fff5ff;
+    color: #333;
+    font-size: 1rem;
+    font-family: sans-serif;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  
+  
